@@ -1,0 +1,23 @@
+<html> 
+    <head>
+        <title>this is demo of html</title>
+    </head>
+    <body>
+        <h1>hello</h1>
+        <h2>hello</h2>
+        <h3>hello</h3>
+        <h4>hello</h4>
+        <h5>hello</h5>
+        <h6>hello</h6>
+        <p>this is demo</p>
+        <pre>this is demo</pre>
+        <center>hello</center>
+        <br><p>this is demo<br>HTML</p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ab commodi pariatur <br><hr>dolores quod eum aperiam saepe, quidem voluptatem adipisci reprehenderit placeat cumque delectus, dolorum odio excepturi aliquid obcaecati aliquam.
+        <marquee behavior="scroll"direction="right">hello</marquee>
+        <marquee behavior="slide"direction="right">hello</marquee>
+        <marquee behavior="alternate"direction="right">hello</marquee>
+        
+    </body>
+</html>
+   

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .on{
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <button onclick="on()" class="on">
+        ON
+    </button>
+
+    <img src="IMAGES/Group 169.png"  id="img" alt="">
+
+    <button onclick="off()">
+        OFF
+    </button>
+
+    <script>
+        function on(){
+            document.getElementById("img").src="IMAGES/Group 170.png"
+        }
+        function off(){
+            document.getElementById("img").src="IMAGES/Group 169.png"
+        }
+    </script>
+</body>
+</html>

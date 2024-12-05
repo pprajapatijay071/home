@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box" id="box"></div>
+
+    <br><br>
+    
+    <button onclick="red()" class="red">
+        RED
+    </button>
+
+    <button onclick="green()" class="green">
+        GREEN
+    </button>
+
+    <button onclick="yellow()" class="yellow">
+        YELLOW
+    </button>
+
+    <button onclick="black()" class="black">
+        BLACK
+    </button>
+
+    <script>
+        function red()
+        {
+            document.getElementById("box").style="background-color: red;"
+        }
+        function green()
+        {
+            document.getElementById("box").style="background-color: green;"
+        }
+        function yellow()
+        {
+            document.getElementById("box").style="background-color: yellow;"
+        }
+        function black()
+        {
+            document.getElementById("box").style="background-color: black;"
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@font-face{
+    font-family: game;
+    src: url(/FONTS/ZenDots-Regular.ttf);
+}
+@font-face{
+    font-family: on game;
+    src: url(/FONTS/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.40)), url(/image/hero-bg-01.jpg);
+    height: 730px;
+    width: 100%;
+    background-size: cover;
+    margin: -59px 0 0 0;
+}
+.main1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    margin-top: 59px;
+    background-color: aquamarine;
+    display: flex;
+}
+.head1{
+    background-color: burlywood;
+    width: 30%;
+}
+.head2{
+    height: 100%;
+    background-color: blue;
+    width: 70%;
+}

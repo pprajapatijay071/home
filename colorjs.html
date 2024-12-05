@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="IMAGES/Rectangle 116.png" id="img" alt="">
+    
+    <button onclick="red()" class="red">
+        RED
+    </button>
+
+    <button onclick="green()" class="green">
+        GREEN
+    </button>
+
+    <button onclick="yellow()" class="yellow">
+        YELLOW
+    </button>
+
+    <button onclick="black()" class="black">
+        BLACK
+    </button>
+
+    <script>
+        function red()
+        {
+            document.getElementById("img").src="IMAGES/Rectangle 116.png"
+        }
+        function green()
+        {
+            document.getElementById("img").src="IMAGES/Rectangle 117.png"
+        }
+        function yellow()
+        {
+            document.getElementById("img").src="IMAGES/Rectangle 118.png"
+        }
+        function black()
+        {
+            document.getElementById("img").src="IMAGES/Rectangle 119.png"
+        }
+
+    </script>
+</body>
+</html>

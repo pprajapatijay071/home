@@ -1,0 +1,13 @@
+git --version
+
+config --global user.name 'github username'
+config --global user.email'github email'
+
+git init
+
+git remote add origin https://github.com/deeppatelsp95/webapp.git
+
+git add * / particular file name
+git commit -m 'your message'
+git branch -M main
+git push -u origin main

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: aqua;
+            height: 70px;
+            width: 100%;
+            font-size: 40px;
+        }
+        @media(max-width:700px){
+           .header{
+            background-color: brown;
+            height: 60px;
+            font-size: 25px ;
+           }
+        }
+        @media(min-width:10px) and (max-width:500px){
+           .header{
+            background-color: rgb(245, 0, 253);
+            height: 50px;
+            font-size: 25px ;
+           }
+        }
+        .nav{
+            background-color: rgb(246, 70, 0);
+            height: 70px;
+            width: 100%;
+            font-size: 40px;
+        }
+        @media(max-width:700px){
+           .nav{
+            background-color: rgb(15, 234, 77);
+            height: 60px;
+            font-size: 25px ;
+           }
+        }
+        @media(min-width:10px) and (max-width:500px){
+           .nav{
+            background-color: rgb(42, 2, 241);
+            height: 50px;
+            font-size: 25px ;
+           }
+        }
+        .two1{
+            background-color: rgb(179, 235, 24);
+            height: 300px;
+            width: 50%;
+            float: left;
+        }
+        @media(max-width:700px){
+           .two1{
+            background-color: rgb(15, 102, 208);
+            height: 60px;
+            font-size: 25px ;
+           }
+        }
+        @media(min-width:10px) and (max-width:500px){
+           .two1{
+            background-color: rgb(0, 203, 229);
+            height: 50px;
+            font-size: 25px ;
+           }
+        }
+        .two2{
+            background-color: rgb(134, 10, 211);
+            height: 300px;
+            width: 50%;
+            float: left;
+        }
+        @media(max-width:700px){
+           .two2{
+            background-color: rgb(7, 255, 164);
+            height: 60px;
+            font-size: 25px ;
+           }
+        }
+        @media(min-width:10px) and (max-width:500px){
+           .two2{
+            background-color: rgb(214, 214, 32);
+            height: 50px;
+            font-size: 25px ;
+           }
+        }
+        .footer{
+            background-color: chartreuse;
+            height: 70px;
+            width: 100%;
+            font-size: 40px;
+            float: left;
+        }
+        @media(max-width:1000px){
+            .footer{
+                height: 60px;
+                background-color: blue;
+                font-size: 30px;
+            }
+        }
+        @media(min-width:10px) and (max-width:500px){
+            .footer{
+                background-color: rgb(31, 236, 236);
+                height: 50px;
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="nav">nav</div>
+    <div class="two1">left</div>
+    <div class="two2">right</div>
+    <div class="footer">footer</div>
+</body>
+</html>

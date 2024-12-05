@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    position:fixed ;
+}
+.head1{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+.head2{
+    height: 73%;
+    width: 28.3%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.head3{
+    height: 73%;
+    width: 23.3%;
+    float: left;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+.head1 img{
+    height: 60px;
+    width: 130px;
+    margin: 17px 0 0 70px;
+}
+.head2 span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+
+}
+.head3 #jay1{
+    font-size: 30px;
+    margin-right: 20px;
+    float: left;
+    color: rgb(137, 122, 85);
+}
+.head3 #jay2{
+    font-size: 30px;
+    margin-right: 50px;
+    float: left;
+    margin-top: -15px;
+    color: rgb(137, 122, 85);
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+    float: left;
+    margin-top: 100px;
+}
+.main1{
+    height: 250px;
+    width: 100%;
+    float: left;
+}
+.main1 .main11{
+    height: 100%;
+    width: 70%;
+    float: left;
+    background-color: rgb(217, 163, 163);
+    color: blue;
+}
+.main1 .main12{
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-image: url(/IMAGES/32.webp);
+
+}
+.main2{
+    height: 250px;
+    width: 100%;
+    background-color: beige;
+    float: left;
+}
+.main2 .main22{
+    height: 70%;
+    width: 20%;
+    background-color: blue;
+    float: left;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.main2 .main21{
+    height: 70%;
+    width: 20%;
+    background-color: blue;
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.main3{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(222, 222, 27);
+    float: left;
+}
+.main3 .main31{
+    height: 100%;
+    width: 25%;
+    background-color: blueviolet;
+    float: left;
+}
+.main31 .main311{
+    height: 60%;
+    width: 100%;
+    background-color: brown;
+    float: left;
+}
+.main311 .main3111{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: aquamarine;
+}
+.main311 .main3112{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: rgb(0, 255, 30);
+}
+.main311 .main3113{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: rgb(0, 191, 255);
+}
+.main31 .main312{
+    height: 40%;
+    width: 100%;
+    background-image: url(IMAGES/abt.webp);
+    float: left;
+}
+.main3 .main32{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(8, 240, 229);
+    float: left;
+}
+.main32 .main321{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.main321 .main3211{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+    float: left;
+}
+.main3211 .main5{
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+}
+.main3211 .main6{
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-color: rgb(12, 233, 16);
+}
+.main321 .main3212{
+    height: 100%;
+    width: 50%;
+    background-image:url(IMAGES/Create-A-Glassmorphism-Login-Form-in-HTML-and-CSS-only.jpg);
+    float: left;
+}
+.main32 .main322{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(212, 188, 31);
+    float: left;
+}
+.main32 .main3111{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: aquamarine;
+}
+.main32 .main3112{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: rgb(0, 255, 30);
+}
+.main32 .main3113{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    background-color: rgb(0, 191, 255);
+}
+.main3 .main33{
+    height: 100%;
+    width: 25%;
+    background-image: url(IMAGES/download.jpg);
+    float: left;
+    color: rgb(234, 0, 255);
+}
+.main3 .main34{
+    height: 84.5%;
+    width: 22%;
+    background-color: rgb(8, 240, 229);
+    float: left;
+    padding: 20px;
+}
+.main34 .main341{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+.main4{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(0, 255, 225);
+    float: left;
+}
+.main4 .main41{
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+    float: left;
+}
+.main4 .main42{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(24, 187, 213);
+    float: left;
+}
+.main4 .main43{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(111, 255, 0);
+    float: left;
+}
+.main4 .main44{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 187, 0);
+    float: left;
+}
+.main41 img{
+    height: 30%;
+    width: 50%;
+    margin: 90px 75px;
+    border: 3px solid black;
+}
+.main42 .main421{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 187, 0);
+    float: left;
+
+}
+.main42 .main422{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 0, 217);
+    float: left;
+}
+.main421 i{
+    font-size: 30px;
+    float: left;
+    margin: 50px 25px;
+}
+.main44{
+    background-image: url(IMAGES/download.png);
+}

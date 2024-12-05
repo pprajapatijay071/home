@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo of layout-3</title>
+    <style>
+        .min{
+            border: 1px solid black;
+            height: 600px;
+            width: 100%;
+        }
+        .header{
+            height: 10%;
+            width: 100%;
+            background-color: rgb(196, 196, 232);
+        }
+        .nav{
+            height: 10%;
+            width: 100%;
+            background-color: rgb(17, 41, 35);
+        }
+        .center{
+            height: 70%;
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+        }
+        .footer{
+            height: 10%;
+            width: 100%;
+            background-color: rgb(238, 255, 0);
+        }
+        .center1{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(55, 75, 133);
+            float: left;
+        }
+        .center2{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(129, 65, 42);
+            float: left;
+        }
+        .center3{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(86, 181, 123);
+            float: left;
+        }
+        .center4{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(124, 45, 124);
+            float: left;
+        }
+        .jay1{
+            height: 50%;
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+        }
+        .jay2{
+            height: 50%;
+            width: 100%;
+            background-color: rgb(0, 81, 255);
+        }
+        .jay3{
+            height: 70%;
+            width: 100%;
+            background-color: rgb(31, 139, 38);
+        }
+        .jay4{
+            height: 30%;
+            width: 100%;
+            background-color: rgb(255, 1, 158);
+        }
+        .jay5{
+            height: 30%;
+            width: 100%;
+            background-color: rgb(107, 232, 211);
+        }
+        .jay6{
+            height: 70%;
+            width: 100%;
+            background-color: rgb(24, 29, 186);
+        }
+        .jay7{
+            height: 80%;
+            width: 100%;
+            background-color: rgb(251, 255, 16);
+        }
+        .jay8{
+            height: 20%;
+            width: 100%;
+            background-color: rgb(235, 95, 212);
+        }
+        .ayush1{
+            height: 100%;
+            width: 50%;
+            background-color: brown;
+            float: left;
+        }
+        .ayush2{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(22, 58, 77);
+            float: left;
+        }
+        .ayush3{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(159, 132, 63);
+            float: left;
+        }
+        .ayush4{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(152, 7, 163);
+            float: left;
+        }
+        .ayush5{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(53, 4, 67);
+            float: left;
+        }
+        .ayush6{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(0, 255, 157);
+            float: left;
+        }
+        .ayush7{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(255, 183, 0);
+            float: left;
+        }
+        .ayush8{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(225, 0, 255);
+            float: left;
+        }
+        .ayush9{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(61, 6, 117);
+            float: left;
+        }
+        .ayush10{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(42, 174, 143);
+            float: left;
+        }
+        .ayush11{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(214, 202, 171);
+            float: left;
+        }
+        .ayush12{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(0, 158, 29);
+            float: left;
+        }
+        .ayush13{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(43, 152, 199);
+            float: left;
+        }
+        .ayush14{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(225, 0, 255);
+            float: left;
+        }
+        .ayush15{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(25, 214, 15);
+            float: left;
+        }
+        .ayush16{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(13, 173, 120);
+            float: left;
+        }
+        .j1{
+            height: 50%;
+            width: 100%;
+            background-color: aqua;
+            float: left;
+        }
+        .j2{
+            height: 50%;
+            width: 100%;
+            background-color: bisque;
+            float: left;
+        }
+        .a1{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(25, 105, 39);
+            float: left;
+        }
+        .a2{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(255, 144, 8);
+            float: left;
+        }
+        .j3{
+            height: 33.33%;
+            width: 100%;
+            background-color: rgb(6, 130, 45);
+            float: left;
+        }
+        .j4{
+            height: 33.33%;
+            width: 100%;
+            background-color: rgb(98, 27, 103);
+            float: left;
+        }
+        .j5{
+            height: 33.33%;
+            width: 100%;
+            background-color: rgb(190, 241, 25);
+            float: left;
+        }
+        .a3{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(150, 239, 218);
+            float: left;
+        }
+        .a4{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(0, 76, 255);
+            float: left;
+        }
+        .a5{
+            height: 100%;
+            width: 30%;
+            background-color: rgb(225, 144, 45);
+            float: left;
+        }
+        .a6{
+            height: 100%;
+            width: 70%;
+            background-color: rgb(160, 78, 78);
+            float: left;
+        }
+        .a7{
+            height: 100%;
+            width: 80%;
+            background-color: rgb(26, 68, 35);
+            float: left;
+        }
+        .a8{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(3, 62, 17);
+            float: left;
+        }
+        .j6{
+            height: 25%;
+            width: 100%;
+            background-color: rgb(78, 113, 131);
+            float: left;
+        }
+        .j7{
+            height: 25%;
+            width: 100%;
+            background-color: rgb(167, 146, 103);
+            float: left;
+        }
+        .j8{
+            height: 25%;
+            width: 100%;
+            background-color: rgb(74, 58, 95);
+            float: left;
+        }
+        .j9{
+            height: 25%;
+            width: 100%;
+            background-color: rgb(62, 103, 110);
+            float: left;
+        }
+        .a9{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(174, 18, 213);
+            float: left;
+        }
+        .a10{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(0, 30, 200);
+            float: left;
+        }
+        .a11{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(7, 189, 198);
+            float: left;
+        }
+        .a12{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(160, 25, 77);
+            float: left;
+        }
+        .a13{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(73, 152, 82);
+            float: left;
+        }
+        .a14{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(94, 255, 0);
+            float: left;
+        }
+        .a15{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(0, 156, 78);
+            float: left;
+        }
+        .a16{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(237, 172, 31);
+            float: left;
+        }
+        .a17{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(8, 51, 37);
+            float: left;
+        }
+        .a18{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(136, 124, 140);
+            float: left;
+        }
+        .a19{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(80, 118, 18);
+            float: left;
+        }
+        .a20{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(176, 120, 0);
+            float: left;
+        }
+        .a21{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(255, 25, 224);
+            float: left;
+        }
+        .a22{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(115, 15, 215);
+            float: left;
+        }
+        .a23{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(120, 27, 67);
+            float: left;
+        }
+        .a24{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(95, 59, 136);
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <center><h1><b>
+    <div class="min">
+        <div class="header">HEADER
+            <img src="https://cdn.tcpindia.in/images/Site/logo/d1db03.png" height="50PX" width="100PX" MA>
+        </div>
+        <div class="nav">NAV</div>
+        <div class="center">
+            <div class="center1">
+                <div class="jay1">
+                    <div class="ayush1"></div>
+                    <div class="ayush2">
+                        <div class="j1">
+                            <div class="a1">1</div>
+                            <div class="a2">2</div>
+                        </div>
+                        <div class="j2"></div>
+                    </div>
+                </div>
+                <div class="jay2">
+                    <div class="ayush3"></div>
+                    <div class="ayush4"></div>
+                </div>
+            </div>
+            <div class="center2">
+                <div class="jay3">
+                    <div class="ayush5">
+                        <div class="j3">
+                            <div class="a3"></div>
+                            <div class="a4"></div>
+                        </div>
+                        <div class="j4">
+                            <div class="a5"></div>
+                            <div class="a6"></div>
+                        </div>
+                        <div class="j5">
+                            <div class="a7"></div>
+                            <div class="a8"></div>
+                        </div>
+                    </div>
+                    <div class="ayush6">
+                        <div class="j6">
+                            <div class="a9"></div>
+                            <div class="a10"></div>
+                            <div class="a11"></div>
+                            <div class="a12"></div>
+                        </div>
+                        <div class="j7">
+                            <div class="a13"></div>
+                            <div class="a14"></div>
+                            <div class="a15"></div>
+                            <div class="a16"></div>
+                        </div>
+                        <div class="j8">
+                            <div class="a17"></div>
+                            <div class="a18"></div>
+                            <div class="a19"></div>
+                            <div class="a20"></div>
+                        </div>
+                        <div class="j9">
+                            <div class="a21"></div>
+                            <div class="a22"></div>
+                            <div class="a23"></div>
+                            <div class="a24"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jay4">
+                    <div class="ayush7"></div>
+                    <div class="ayush8"></div>
+                </div>
+            </div>
+            <div class="center3">
+                <div class="jay5">
+                    <div class="ayush9"></div>
+                    <div class="ayush10"></div>
+                </div>
+                <div class="jay6">
+                    <div class="ayush11"></div>
+                    <div class="ayush12"></div>
+                </div>
+            </div>
+            <div class="center4">
+                <div class="jay7">
+                    <div class="ayush13"></div>
+                    <div class="ayush14"></div>
+                </div>
+                <div class="jay8">
+                    <div class="ayush15"></div>
+                    <div class="ayush16"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">FOOTER</div>
+    </div>
+    </b></h1></center>
+</body>
+</html>

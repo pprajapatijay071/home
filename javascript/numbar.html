@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 30px;
+        }
+        .j{
+            border: 1px solid black;
+            margin: 0px 20px 0px 0px ;
+            padding: 10px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    
+    <span id="e" class="j" onclick="a()">
+        1
+    </span>
+
+    <span id="d" class="j" onclick="b()">
+        2
+    </span>
+
+    <span id="c" class="j" onclick="c()">
+        3
+    </span>
+    
+    <span id="b" class="j" onclick="d()">
+        4
+    </span>
+
+    <span id="a" class="j" onclick="e()">
+        5
+    </span>
+
+    <script>
+        function a(){
+            document.getElementById("e").innerHTML="3"
+        }
+        function b(){
+            document.getElementById("d").innerHTML="5"
+        }
+        function c(){
+            document.getElementById("c").innerHTML="2"
+        }
+        function d(){
+            document.getElementById("b").innerHTML="1"
+        }
+        function e(){
+            document.getElementById("a").innerHTML="4"
+        }
+    </script>
+</body>
+</html>
